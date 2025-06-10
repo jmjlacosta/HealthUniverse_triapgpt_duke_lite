@@ -1,0 +1,26 @@
+[
+    {
+        "researcher_id": "r1",
+        "researcher": "Dr. Jane Smith is an immunologist studying vaccine responses using animal models.",
+        "grants": [
+            {
+                "title": "Immune Response to Novel Vaccines",
+                "summary": "This grant supports research on understanding immune mechanisms triggered by new vaccine platforms.",
+                "eligibility": "Applicants must have experience in immunology and access to appropriate laboratory facilities.",
+                "grant_id": "R01AI123456"
+            },
+            {
+                "title": "Targeted Therapies for Lung Cancer",
+                "summary": "Funding to explore targeted therapeutic approaches for lung cancer treatment.",
+                "eligibility": "Researchers focusing on oncology with preliminary data in lung cancer models are encouraged to apply.",
+                "grant_id": "R21CA654321"
+            },
+            {
+                "title": "Machine Learning in Mental Health",
+                "summary": "Support for small projects applying machine learning methods to mental health data.",
+                "eligibility": "Applicants should demonstrate expertise in AI and access to mental health datasets.",
+                "grant_id": "R03MH111111"
+            }
+        ]
+    }
+]
