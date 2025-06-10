@@ -120,6 +120,26 @@ NCT01724996 2.7999999998
 ...
 ```
 
+## Grant Matching Demo
+
+This repository also includes a simplified example for matching researcher profiles to NIH grants. A small
+set of grant records is provided in `dataset/grants/grants.jsonl`. After generating matching results, you can
+rank the grants for each researcher with:
+
+```bash
+python trialgpt_ranking/rank_results.py dataset/grants/matching_results.json
+```
+
+The ranked list will be written to `dataset/grants/grant_rankings.txt`.
+
+You can also experiment interactively with a small Streamlit demo. The app takes
+a researcher summary as input and returns ranked grant matches using the same
+logic as above.
+
+```bash
+streamlit run streamlit_app.py
+```
+
 ## Acknowledgments
 
 This work was supported by the Intramural Research Programs of the National Institutes of Health, National Library of Medicine.

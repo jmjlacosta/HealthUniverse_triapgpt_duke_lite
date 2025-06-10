@@ -16,3 +16,4 @@ python-multipart>=0.0.12
 uvicorn>=0.31.1
 pydantic
 httpx
+streamlit
